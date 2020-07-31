@@ -41,6 +41,8 @@ RUN echo "HostCertificate /etc/ssh/ssh_host_ed25519_key.pub" >> /etc/ssh/sshd_co
 RUN echo "TrustedUserCAKeys /etc/ssh/trusted_user_ca.pub" >>/etc/ssh/sshd_config
 ```
 
+---
+
 ## Build the docker container and run it
 
 ```
